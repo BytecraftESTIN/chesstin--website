@@ -1,11 +1,10 @@
-import { Container } from "@mantine/core"
+import RegisterForm from './components/form/RegisterForm';
+import Sidebar from './components/sidebar/Sidebar'
+
+
 function App() {
   return (
-    <>
-      <Container>
-        <p>hello hi</p>
-      </Container>
-    </>
+      <RegisterForm/>
   );
 }
 

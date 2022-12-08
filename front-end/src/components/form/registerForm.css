@@ -1,0 +1,12 @@
+.form-container:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: url("../../assets/img/houses-gc6ae622d6_1920.jpg") no-repeat center;
+	background-size: cover;
+	filter: blur(50px);
+	z-index: -1;
+}
