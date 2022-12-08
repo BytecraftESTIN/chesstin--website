@@ -1,11 +1,12 @@
 import React from 'react'
 import arrow from '../../assets/img/arrow-form.png';
 import './registerForm.css'
-// import { Link } from 'react-router-dom';
 
-export default function RegisterForm() {
-  return (
-    <div className='h-screen md:w-[85%] w-full  ml-auto'>
+
+
+export default function Rating (){
+    return (
+        <div className='h-screen md:w-[85%] w-full  ml-auto'>
         <div className="form-container h-full w-full relative flex items-center justify-center md:px-[20px] md:py-[100px] text-white ">
             <div className="bg-black w-full h-full xl:h-[460px] xl:w-[460px] md:h-[380px] md:w-[380px] lg:h-[400px] lg:w-[400px]  flex md:items-center items-start justify-center md:p-5 px-2 md:px-0 relative md:rotate-45">
                 <div className='md:rotate-[-45deg] flex md:items-center items-start justify-start flex-col h-fit md:w-[70%]  md:translate-x-[-20px] md:translate-y-[-20px] p-2 md:p-0'>
@@ -19,24 +20,19 @@ export default function RegisterForm() {
                         </div>
                     </div>
                     <div className='md:text-center mt-2 pt-4 md:py-0'>
-                        <h1 className='capitalize text-white xl:text-[32px] lg:text-[24px] md:text-[22px] text-[32px]  font-bold'>Let's gather <br className='md:hidden'/>your <br /><span className='text-[#FD3434]'>information</span></h1>
+                        <h1 className='capitalize text-white xl:text-[32px] lg:text-[24px] md:text-[22px] text-[32px]  font-bold'>let's Talk <br /><span className='text-[#FD3434]'>chess</span></h1>
                     </div>
-                    <div className='flex items-center flex-col justify-center xl:py-4 lg:py-2 w-full md:px-0 px-3 py-4 md:py-0'>
-                        <input type="text" className='outline-none xl:text-[16px] text-[14px] py-1 bg-transparent border-b-[1px] border-[#FD3434] border-solid w-full mb-4' placeholder="What's your name ?" id='name' />
-                        <input type="text" className='outline-none xl:text-[16px] text-[14px] py-1 bg-transparent border-b-[1px] border-[#FD3434] border-solid w-full' placeholder='What is your field of studies ?' id='feild'/>
+                    <div className='flex items-center flex-col justify-center xl:py-4 lg:py-2 w-full md:px-0 px-3 py-4 mt-4 md:mt-0 md:py-0'>
+                        <input type="text" className='outline-none xl:text-[16px] text-[14px] py-1 bg-transparent border-b-[1px] border-[#FD3434] border-solid w-full mb-4' placeholder="What is your chess rating?" id='email' />
+                        <input type="text" className='outline-none xl:text-[16px] text-[14px] py-1 bg-transparent border-b-[1px] border-[#FD3434] border-solid w-full' placeholder='Any past experience with chess?' id='PH-number'/>
                     </div>
                     <div className="w-full py-2 px-2 md:px-0">
-                        <p className='mb-2 xl:text-[14px] text-[12px] text-[#BBBBBB]'>From which university/institution are you?</p>
-                        <div className='w-full bg-[#F5F5F5] p-2 lg:p-1'>
-                            <select className='outline-none bg-transparent text-black w-full px-4 border-none '>
-                                <option value="">hello</option>
-                            </select>
-                        </div>
+                        
                     </div>
                     <div className="w-full md:p-2 mt-4 md:mt-0 lg:p-4 ">
-                        <p className='capitalize font-bold xl:text-[15px] lg:text-[13px] md:text-[13px] md:text-center text-[12px]'><span className='text-[#fd3434]'>NB:</span> Please make sure the information you are providing is correct</p>
+                        <p className='capitalize font-bold xl:text-[15px] lg:text-[13px] md:text-[13px] md:text-center text-[12px]'><span className='text-[#fd3434]'>NB:</span>Don't forget to mention any rewords of cetificates that you have recieved</p>
                     </div>
-                    <div className="w-full flex items-center justify-center mt-8 md:mt-6">
+                    <div className="w-full flex items-center justify-center mt-8">
                         <div className="border-[1.3px] border-[#f5f5f5] border-dashed p-[3px]">
                             <button className='xl:py-[10px] xl:px-[60px] py-[6px] px-[40px] lg:py-[8px] lg:px-[40px] bg-[#fd3434] text-white text-[13px]'>Next</button>
                             {/* <Link to="/">hi zojfdsjq</Link> */}
@@ -46,6 +42,5 @@ export default function RegisterForm() {
             </div>
 	    </div>
     </div>
-  )
+    )
 }
-
